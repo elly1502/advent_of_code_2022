@@ -1,16 +1,13 @@
-# Day 2: Calorie Counting
+# Day 2: Rock Paper Scissors
 ### Author: Helena L. Spiewak
 ### Date created: 2022-12-02
-
-# Rock defeats Scissors, Scissors defeats Paper,
-# and Paper defeats Rock. If both players choose the same shape,
-# the round instead ends in a draw.
 
 import os
 
 # dict of keys, scores and which defeats which
 opponent = {"A": "Rock", "B": "Paper", "C": "Scissors"}
 scores = {"Rock": 1, "Paper": 2, "Scissors": 3}
+# key defeats value
 defeats = {"Rock": "Scissors", "Scissors": "Paper", "Paper": "Rock"}
 
 
